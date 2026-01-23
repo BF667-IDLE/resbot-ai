@@ -1,8 +1,9 @@
 {
-  "name": "Resbot-Ai",
-  "version": "1.0.5",
+  "name": "resbot-ai",
+  "version": "2.0.0",
   "description": "A project for Resbot AI",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,13 +11,16 @@
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@google/generative-ai": "^0.21.0",
-    "api-autoresbot": "^1.0.5",
-    "baileys": "^6.7.17",
+    "@hapi/boom": "^10.0.1",
+    "api-autoresbot": "^1.0.6",
+    "axios": "^1.6.0",
+    "baileys": "^7.0.0-rc.9",
     "chalk": "^4.1.0",
     "cheerio": "^1.0.0",
     "ffmpeg": "^0.0.4",
     "file-type": "^16.5.3",
     "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.46",
     "node-schedule": "^2.1.1",
@@ -28,7 +32,7 @@
     "youtube-search-api": "^1.2.2"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "author": "Autoresbot",
   "license": "ISC"
