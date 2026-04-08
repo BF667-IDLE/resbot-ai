@@ -21,7 +21,7 @@ import moment from 'moment-timezone';
 const config = {
   AutoUpdate: 'off', // on atau off
   API_KEY: '', // APIKEY BELI AMBIL DI autoresbot.com
-  phone_number_bot: '', // Nomor BOT CONTOH : 6285124002201
+  phone_number_bot: '6285124252139', // Nomor BOT CONTOH : 6285124002201
   type_connection: 'pairing', // qr atau pairing
   bot_destination: 'both', // group , private, both
   name_bot: 'Resbot Ai',
@@ -34,7 +34,7 @@ const config = {
   sticker_packname: 'Autoresbot',
   sticker_author: `Date: ${moment
     .tz('Asia/Jakarta')
-    .format('DD/MM/YY')}\nYouTube: Azhari Creative\nBot: 0852-4615-4386`,
+    .format('DD/MM/YY')}`,
   notification: {
     limit:
       'Hai kak, Limit harian anda sudah habis silakan tunggu besok ya atau berlangganan premium untuk menikmati fitur tanpa limit',
@@ -66,9 +66,9 @@ const config = {
       BASE_URL: 'https://api.groq.com/openai/v1/chat/completions',
     },
     GEMINI: {
-      API_KEY: '', // apikey dari aistudio.google.com
-      MODEL: 'gemini-2.5-flash',
-      BASE_URL: 'https://generativelanguage.googleapis.com/v1/models',
+      API_KEY: '', // apikey dari https://platform.xiaomimimo.com
+      MODEL: 'mimo-v2-flash',
+      BASE_URL: 'https://api.xiaomimimo.com/v1/chat/completions',
     },
     HISTORY_LIMIT: 10, // CHAT HISTORY LIMIT YANG TERSIMPAN
   },
