@@ -1,6 +1,6 @@
 import './cleanLogger.js';
 
-import makeWASocket, { useMultiFileAuthState, fetchLatestBaileysVersion } from 'baileys';
+import { makeWASocket, useMultiFileAuthState, fetchLatestBaileysVersion } from 'baileys';
 import pino from 'pino';
 import path from 'path';
 import fs from 'fs';
