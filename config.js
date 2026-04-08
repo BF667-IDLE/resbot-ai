@@ -1,20 +1,4 @@
-/*
-⚠️ PERINGATAN:
-Script ini **TIDAK BOLEH DIPERJUALBELIKAN** dalam bentuk apa pun!
 
-╔══════════════════════════════════════════════╗
-║                🛠️ INFORMASI SCRIPT           ║
-╠══════════════════════════════════════════════╣
-║ 📦 Version   : 2.0.0
-║ 👨‍💻 Developer  : Azhari Creative              ║
-║ 🌐 Website    : https://autoresbot.com       ║
-║ 💻 GitHub     : github.com/autoresbot/resbot-ai
-╚══════════════════════════════════════════════╝
-
-📌 Mulai 11 April 2025,
-Script **Autoresbot** resmi menjadi **Open Source** dan dapat digunakan secara gratis:
-🔗 https://autoresbot.com
-*/
 
 import moment from 'moment-timezone';
 
@@ -26,12 +10,12 @@ const config = {
   bot_destination: 'both', // group , private, both
   name_bot: 'Resbot Ai',
   owner_name: 'Autoresbot',
-  owner_number: ['6282154365238@s.whatsapp.net'],
-  owner_website: 'autoresbot.com',
+  owner_number: ['6283150958207@s.whatsapp.net'],
+  owner_website: '',
   version: global.version,
   rate_limit: 3000, // 3 detik
   total_limit: 100, // limit perhari -  user biasa || kalo premium unlimited
-  sticker_packname: 'Autoresbot',
+  sticker_packname: 'BF667',
   sticker_author: `Date: ${moment
     .tz('Asia/Jakarta')
     .format('DD/MM/YY')}`,
